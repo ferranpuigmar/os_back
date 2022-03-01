@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "base_layouts",
+  "info": {
+    "singularName": "base-layout",
+    "pluralName": "base-layouts",
+    "displayName": "base layout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "displayName": "logo",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.logo"
+    }
+  }
+}
