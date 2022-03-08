@@ -80,6 +80,8 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
+package-lock.json
+yarn.lock
 public/uploads/*
 !public/uploads/.gitkeep
 

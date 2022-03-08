@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_specialities",
+  "info": {
+    "displayName": "BannerSpeciality",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "specialities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.bubble"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
