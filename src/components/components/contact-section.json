@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_contact_sections",
+  "info": {
+    "displayName": "ContactSection",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contactModule": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.contact-module"
+    },
+    "map": {
+      "displayName": "Map",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.map"
+    }
+  }
+}

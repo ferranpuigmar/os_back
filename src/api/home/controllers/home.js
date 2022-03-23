@@ -24,6 +24,16 @@ module.exports = createCoreController("api::home.home", ({ strapi }) => ({
             },
           },
         },
+        contactSection: {
+          populate: {
+            contactModule: {
+              populate: {
+                icon: true,
+              },
+            },
+            map: {},
+          },
+        },
       },
     });
 

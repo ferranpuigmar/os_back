@@ -33,6 +33,16 @@
         }
       },
       "type": "string"
+    },
+    "contactSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "components.contact-section"
     }
   }
 }

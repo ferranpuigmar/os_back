@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_maps",
+  "info": {
+    "displayName": "Map",
+    "icon": "building",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "longitude": {
+      "type": "float",
+      "required": true
+    },
+    "latitude": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

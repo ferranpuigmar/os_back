@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_components_contact_modules",
+  "info": {
+    "displayName": "contactModule",
+    "icon": "blender",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "default": "null"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "whatsapp",
+        "location",
+        "facebook",
+        "instagram"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "default": "null"
+    },
+    "linkText": {
+      "type": "string"
+    }
+  }
+}
